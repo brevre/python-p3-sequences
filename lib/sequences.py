@@ -1,4 +1,3 @@
-# lib/sequences.py
 
 def print_fibonacci(length):
     if length <= 0:
@@ -13,6 +12,4 @@ def print_fibonacci(length):
             fibonacci_sequence.append(next_number)
 
         print(fibonacci_sequence)
-
-# Uncomment the line below to test the function
-# print_fibonacci(9)
+print_fibonacci(9)
